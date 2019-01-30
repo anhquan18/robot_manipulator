@@ -27,7 +27,5 @@ if __name__ == '__main__':
 
             for i in range(1):
                 angles, state = manipulator_states_list
-                print angles
-                print state
                 move_hand(angles, state)
                 time.sleep(5)
